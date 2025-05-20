@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sean David R. Bartolome | E-Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/favicon.png" type="image/png">
 </head>
 <body>
   <header>
@@ -24,7 +25,7 @@
   <div class="about-content">
     <div class="about-text">
       <h2>About Me</h2>
-      <p>At 21 years old, I'm a 4th year Information Technology student at De La Salle University, with a strong passion for coding — especially in web and systems development. I approach every task with full dedication and enjoy blending my skills in areas like network security and problem solving. Proficient in a wide range of programming languages and technological tools, I’m always looking to learn more and expand my capabilities </p>
+      <p style="text-align: justify;">At 21 years old, I'm a 4th year Information Technology student at De La Salle University, with a strong passion for coding — especially in web and systems development. I approach every task with full dedication and enjoy blending my skills in areas like network security and problem solving. Proficient in a wide range of programming languages and technological tools, I’m always looking to learn more and expand my capabilities </p>
     </div>
     <div class="about-image">
       <img src="img/pfp.jpg" alt="Sean David R. Bartolome" />
@@ -35,47 +36,163 @@
 
 <section id="projects" class="container">
   <h2>Projects</h2>
+  <div class="view-toggle">
+  <label class="switch">
+    <input type="checkbox" id="toggleView">
+    <span class="slider round"></span>
+  </label>
+  <span id="viewLabel">Grid View</span>
+</div>
   <div class="projects-grid">
     <div class="project-card">
       <img src="img/translasean.png" alt="Translasean Project Screenshot" />
       <div class="project-info">
         <strong>Translasean (2021)</strong>
-        <p>A basic syntax language translator created using C.</p>
+        <p>A basic syntax language identifier and translator created using C</p>
       </div>
     </div>
 
     <div class="project-card">
-      <img src="img/groupchat.jpg" alt="Group Chat App Screenshot" />
+      <img src="img/myFarm.png" alt="Group Chat App Screenshot" />
       <div class="project-info">
-        <strong>Group Chat App</strong>
-        <p>Role-based chat system using WebSockets and MongoDB.</p>
+        <strong>myFarm (2022)</strong>
+        <p>A Java-based day-by-day farming simulator game supplied with a GUI interface</p>
       </div>
     </div>
 
     <div class="project-card">
-      <img src="img/portfolio.jpg" alt="Online Portfolio Screenshot" />
+      <img src="img/restaurant.png" alt="Online Portfolio Screenshot" />
       <div class="project-info">
-        <strong>Online Portfolio</strong>
-        <p>Personal website built with HTML, CSS, and JavaScript.</p>
+        <strong>Restaurant Ordering and Inventory System (2023)</strong>
+        <p>A menu-based combo meal ordering system developed using HTML, CSS, JavaScript, PHP, and XML</p>
+      </div>
+    </div>
+
+     <div class="project-card">
+      <img src="img/archers.png" alt="Online Portfolio Screenshot" />
+      <div class="project-info">
+        <strong>Archers’ Reservation Hub (2023)</strong>
+        <p>A deployed web application for computer laboratory reservation using HTML, CSS, JavaScript, and Node.js</p>
+      </div>
+    </div>
+
+     <div class="project-card">
+      <img src="img/exploremore.png" alt="Online Portfolio Screenshot" />
+      <div class="project-info">
+        <strong>ExploreMore (2024)</strong>
+        <p>A mobile travel guide Android app for the Philippines developed using Kotlin and Java</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="img/ezretro.png" alt="Online Portfolio Screenshot" />
+      <div class="project-info">
+        <strong>EZRetro (2024)</strong>
+        <p>A deployed subscription-based retro video game hub created with HTML, CSS, and JavaScript</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="img/busmate.png" alt="Online Portfolio Screenshot" />
+      <div class="project-info">
+        <strong>BusMate (2024 - Present)</strong>
+        <p>A real-time public utility fleet management dashboard using HTML, CSS, JavaScript, Node.js, OpenCV, and GPS made for Capstone</p>
       </div>
     </div>
   </div>
+  
+<div class="projects-slideshow">
+  <div class="slideshow-container">
+    <div class="slide active">
+      <img src="img/translasean.png" alt="Translasean Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>Translasean (2021)</strong> - A basic syntax language identifier and translator created using C</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/myFarm.png" alt="myFarm Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>myFarm (2022)</strong> - A Java-based day-by-day farming simulator game supplied with a GUI interface</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/restaurant.png" alt="Restaurant Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>Restaurant Ordering and Inventory System (2023)</strong> - A menu-based combo meal ordering system developed using HTML, CSS, JavaScript, PHP, and XML</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/archers.png" alt="Archers Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>Archers’ Reservation Hub (2023)</strong> - A deployed web application for computer laboratory reservation using HTML, CSS, JavaScript, and Node.js</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/exploremore.png" alt="ExploreMore Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>ExploreMore (2024)</strong> - A mobile travel guide Android app for the Philippines developed using Kotlin and Java</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/ezretro.png" alt="EZRetro Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>EZRetro (2024)</strong> - A deployed subscription-based retro video game hub created with HTML, CSS, and JavaScript</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img/busmate.png" alt="BusMate Project Screenshot" />
+      <div class="slide-caption">
+        <p><strong>BusMate (2024 - Present)</strong> - A real-time public utility fleet management dashboard using HTML, CSS, JavaScript, Node.js, OpenCV, and GPS made for Capstone</p>
+      </div>
+    </div>
+  </div>
+
+  <button id="prevSlide" class="slide-btn prev">&#10094;</button>
+  <button id="nextSlide" class="slide-btn next">&#10095;</button>
+</div>
+
 </section>
 
   <section id="resume" class="container">
     <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank">Download my resume (PDF)</a></p>
+    <p><a href="SeanDavidBartolome_Resume.pdf" target="_blank">Download my resume (PDF)</a></p>
   </section>
 
   <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Email: seandavid@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/seandavid" target="_blank">linkedin.com/in/seandavid</a></p>
-    <p>GitHub: <a href="https://github.com/seandavid" target="_blank">github.com/seandavid</a></p>
-  </section>
+  <h2>Contact</h2>
+  <p>Email: seandavidbartolome@gmail.com</p>
+  <p>Facebook: <a href="https://www.facebook.com/helloimsean/" target="_blank">facebook.com/helloimsean/</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/sean-david-bartolome-37897b312/" target="_blank">linkedin.com/in/sean-david-bartolome-37897b312/</a></p>
+  <p>GitHub: <a href="https://github.com/epiknesh" target="_blank">github.com/epiknesh</a></p>
+<br>
+  <h3>Let's connect!</h3>
+  <form action="https://formspree.io/f/mqaqjydz" method="POST">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Your Email:</label><br />
+    <input type="email" id="email" name="_replyto" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+  <!-- Image Modal -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg" alt="Expanded project image" />
+</div>
 
   <footer>
     <p>&copy; 2025 Sean David R. Bartolome</p>
   </footer>
+
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
