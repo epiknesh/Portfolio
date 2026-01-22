@@ -92,6 +92,43 @@ section:nth-child(odd) {
   animation-delay: 0.6s;
 }
 
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tech-stack span {
+  background: #e9ebf8;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #14453D;
+}
+
+.hello {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  color: #6B616B;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4f5d5a;
+}
+
+.tagline {
+  font-size: 1.15rem;
+  max-width: 720px;
+  margin: 0.8rem auto 1.5rem;
+  color: #333;
+  line-height: 1.6;
+}
+
 h2 {
   color: #14453D;
   margin-bottom: 1rem;
