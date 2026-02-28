@@ -10,7 +10,7 @@ export default function About() {
         {/* Left: Image */}
         <div className="flex-1 max-w-xs rounded-xl overflow-hidden shadow-lg">
           <img
-            src="/img/pfp.jpg"
+            src="/img/pfp2.jpg"
             alt="Sean David R. Bartolome"
             className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
           />
